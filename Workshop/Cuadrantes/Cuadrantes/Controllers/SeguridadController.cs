@@ -8,7 +8,7 @@ namespace Cuadrantes.Controllers
 {
     [Route("api/[controller]")]
     public class SeguridadController : Controller
-    {
+    {      
         [HttpPost]
         public string IniciarSesion(string usuario, string clave)
         {
