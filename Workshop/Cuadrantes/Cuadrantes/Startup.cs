@@ -40,7 +40,7 @@ namespace Cuadrantes
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            //Agregar MVC
             app.UseMvc();
         }
     }
